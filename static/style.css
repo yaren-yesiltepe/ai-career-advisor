@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.options button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f3f4f6;
+    cursor: pointer;
+    color: black;
+}
+
+.options button.active {
+    background: #4f46e5;
+    color: white;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.options button {
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.options button.active {
+    background: #4f46e5;
+    color: white;
+    border-color: #4f46e5;
+}
+
+.analyze-btn {
+    padding: 12px 20px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f9fafb;
+}
+
+.progress {
+    background: #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 10px;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #22c55e;
+}
+
+.reason {
+    font-size: 14px;
+    color: #374151;
+}

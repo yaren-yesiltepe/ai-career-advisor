@@ -1,0 +1,22 @@
+{
+  "careers": [
+    {
+      "title": "Frontend Developer",
+      "skills": ["javascript", "html", "css"],
+      "interests": ["design", "visual_design"],
+      "min_level": "junior"
+    },
+    {
+      "title": "Data Analyst",
+      "skills": ["sql", "excel", "python"],
+      "interests": ["numbers", "data_processing"],
+      "min_level": "junior"
+    },
+    {
+      "title": "AI Developer",
+      "skills": ["python", "api"],
+      "interests": ["technology", "ai", "trends"],
+      "min_level": "junior"
+    }
+  ]
+}
